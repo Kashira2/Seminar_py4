@@ -39,7 +39,7 @@ def string_end(num1, my_string):
 print(string_end(num1, creat_list(my_list, num1)).replace('*x**0', '').replace('x**0', '1')\
     .rstrip().replace(' ', ' + ').replace('**1', '').replace(' + -', ' - ') + ' = 0')
 
-f = open('file.txt', 'w')
-f.write(string_end(num1, creat_list(my_list, num1)).replace('*x**0', '').replace('x**0', '1')\
-    .rstrip().replace(' ', ' + ').replace('**1', '').replace(' + -', ' - ') + ' = 0')
-f.close
+# f = open('file2.txt', 'w')
+# f.write(string_end(num1, creat_list(my_list, num1)).replace('*x**0', '').replace('x**0', '1')\
+#     .rstrip().replace(' ', ' + ').replace('**1', '').replace(' + -', ' - ') + ' = 0')
+# f.close
